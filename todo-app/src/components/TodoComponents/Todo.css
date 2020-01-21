@@ -1,0 +1,26 @@
+
+.clear-btn {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.897);
+    padding: .5rem;
+    height: 100%;
+    width: 100%;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: #fff;
+    border: none;
+    transition: .25s ease;
+}
+.todo-item {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 0, 0, 0.507);
+    width: 75%;
+}
+.todo-item:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.26);
+    transition: .25s ease;
+}

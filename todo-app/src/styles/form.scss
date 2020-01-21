@@ -1,0 +1,33 @@
+.TodoForm {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    input {
+        width: 90%;
+        padding: .5rem;
+        margin-right: .5rem;
+        font-size: 1.25rem;
+        outline: none;
+        // border: 1px solid $Grey;
+        background-color: $White;
+        border: 0;
+        box-shadow: 0 .25rem .25rem $Shadow;
+    }
+    button {
+        height: 2.5rem;
+        width: 7rem;
+        font-size: .80rem;
+        outline: none;
+        border: none;
+        background-color: $Black;
+        color: $White;
+
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(26, 26, 26);
+            transition: .25s ease;
+        }
+    }
+}

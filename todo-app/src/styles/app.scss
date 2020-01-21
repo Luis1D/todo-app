@@ -1,0 +1,52 @@
+@import 'variables';
+@import 'form';
+@import 'todoList.scss';
+@import 'header';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $White;
+}
+.body-container {
+    width: 90%;
+    margin: 0 auto;
+    @media(min-width: 600px) {
+        max-width: 40rem;
+    }
+}
+.list-container {
+    margin: 1rem 0 1rem 0;
+    box-shadow: 0 .25rem .25rem $Shadow;
+    // background-color: $White;
+    padding: 1.5rem;
+}
+.clear-btn {
+    width: 100%;
+    border: 0;
+    background-color: $Black;
+    color: $White;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 .25rem .25rem $Shadow;
+
+&:hover {
+        cursor: pointer;
+        background-color: rgba(31, 31, 31, 0.945);
+        transition: .25s ease;
+    }
+}
+
+.todo-stats {
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    box-shadow: 0 .25rem .25rem $Shadow;
+    color: $Black;
+    border-right: 8px solid $Green;
+}

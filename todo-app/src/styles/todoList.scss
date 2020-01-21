@@ -1,0 +1,24 @@
+@import 'variables';
+
+.TodoList {
+    margin: 0 auto;
+    margin-top: 1rem;
+
+    .todo-item {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        width: 90%;
+        border-left: .5rem solid $Red;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .completed {
+        transition: .25s ease;
+        text-decoration: line-through;
+        border-left: .5rem solid $Green;
+        color: $Grey;
+        text-align: right;
+    }
+}

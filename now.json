@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "todo-app",
+    "builds": [{ "src": "todo-app/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+        { "src": "/(.*)", "dest": "todo-app/$1" }
+    ]
+}
